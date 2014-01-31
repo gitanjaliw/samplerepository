@@ -1,0 +1,79 @@
+#backgroundPopup {
+2	    z-index:1;
+3	    position: fixed;
+4	    display:none;
+5	    height:100%;
+6	    width:100%;
+7	    background:#000000;
+8	    top:0px;
+9	    left:0px;
+10	}
+11	#toPopup {
+12	    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+13	    background: none repeat scroll 0 0 #FFFFFF;
+14	    border: 10px solid #ccc;
+15	    border-radius: 3px 3px 3px 3px;
+16	    color: #333333;
+17	    display: none;
+18	    font-size: 14px;
+19	    left: 50%;
+20	    margin-left: -402px;
+21	    position: fixed;
+22	    top: 20%;
+23	    width: 800px;
+24	    z-index: 2;
+25	}
+26	div.loader {
+27	    background: url("../img/loading.gif") no-repeat scroll 0 0 transparent;
+28	    height: 32px;
+29	    width: 32px;
+30	    display: none;
+31	    z-index: 9999;
+32	    top: 40%;
+33	    left: 50%;
+34	    position: absolute;
+35	    margin-left: -10px;
+36	}
+37	div.close {
+38	    background: url("../img/closebox.png") no-repeat scroll 0 0 transparent;
+39	    cursor: pointer;
+40	    height: 30px;
+41	    position: absolute;
+42	    right: -27px;
+43	    top: -24px;
+44	    width: 30px;
+45	}
+46	span.ecs_tooltip {
+47	    background: none repeat scroll 0 0 #000000;
+48	    border-radius: 2px 2px 2px 2px;
+49	    color: #FFFFFF;
+50	    display: none;
+51	    font-size: 11px;
+52	    height: 16px;
+53	    opacity: 0.7;
+54	    padding: 4px 3px 2px 5px;
+55	    position: absolute;
+56	    right: -62px;
+57	    text-align: center;
+58	    top: -51px;
+59	    width: 93px;
+60	}
+61	span.arrow {
+62	    border-left: 5px solid transparent;
+63	    border-right: 5px solid transparent;
+64	    border-top: 7px solid #000000;
+65	    display: block;
+66	    height: 1px;
+67	    left: 40px;
+68	    position: relative;
+69	    top: 3px;
+70	    width: 1px;
+71	}
+72	div#popup_content {
+73	    margin: 4px 7px;
+74	    /* remove this comment if you want scroll bar
+75	    overflow-y:scroll;
+76	    height:200px
+77	    */
+78	}
+- See more at: http://istockphp.com/jquery/creating-popup-div-with-jquery/#sthash.PCgMSdWf.dpuf
